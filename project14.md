@@ -287,13 +287,11 @@ At this point you may not have a Jenkinsfile in the Ansible repository, so Blue 
 
 Here is our newly created pipeline. It takes the name of your GitHub repository.
 
-![alt text](image.jpg)
 
 
 Let us create our <mark>Jenkinsfile</mark>
 Inside the Ansible project, create a new directory deploy and start a new file Jenkinsfile inside the directory.
 
-![alt text](image.jpg)
 
 Add the code snippet below to start building the Jenkinsfile gradually. This pipeline currently has just one stage called Build and the only thing we are doing is using the shell script module to echo Building Stage
 
@@ -372,9 +370,7 @@ Let us see this in action.
 4. To make your new branch show up in Jenkins, we need to tell Jenkins to scan the repository.
     1. Click on the "Administration" button
 
-![alt text](image.jpg)
-
-2. Navigate to the Ansible project and click on "Scan repository now"
+    2. Navigate to the Ansible project and click on "Scan repository now"
 
 ![Scan repository](images/Scan-repository.png)
 
